@@ -1,0 +1,16 @@
+INSERT INTO community (name, description, location) VALUES ('Mexican School', 'School in Mexico with vibrant Day of the Dead celebrations.', 'Mexico City');
+INSERT INTO community (name, description, location) VALUES ('Japanese School', 'School in Japan known for its Cherry Blossom Festival.', 'Tokyo');
+INSERT INTO asset (title, description, content) VALUES ('Day of the Dead', 'A celebration of life and death.', 'Day of the Dead ...');
+INSERT INTO asset (title, description, content) VALUES ('Cherry Blossom Festival', 'Celebration of cherry blossoms in spring.', 'Cherry Blossom content here...');
+INSERT INTO proposal (community_id_sender, community_id_receiver, title, description, status) VALUES (1, 2, 'Proposal for Day of the Dead celebration exchange.', 'Cultural Exchange', 'Pending');
+INSERT INTO communication (communication_id, sender_communityid, receiver_communityid, message) VALUES (1, 1, 2, 'Would you be interested in a cultural exchange?');
+INSERT INTO community_asset (asset_id,community_assetid,community_id) VALUES (1, 1, 1);
+INSERT INTO community_asset (asset_id,community_assetid,community_id) VALUES (2, 2, 2);
+INSERT INTO community (name, description, location) VALUES ('Italian School', 'School in Italy famous for its Carnevale celebrations.', 'Venice');
+INSERT INTO community (name, description, location) VALUES ('Indian School', 'School in India, celebrated for its Diwali festival.', 'New Delhi');
+INSERT INTO asset (title, description, content) VALUES ('Venice Carnevale', 'A historic festival known for its elaborate masks.', 'Carnevale content...');
+INSERT INTO asset (title, description, content) VALUES ('Diwali Festival', 'The festival of lights celebrated across India.', 'Diwali festival content...');
+INSERT INTO proposal (community_id_sender, community_id_receiver, title, description, status) VALUES (3, 4, 'Proposal for Carnevale-Diwali cultural exchange.', 'Exchange of cultural festivals', 'Pending');
+INSERT INTO communication (communication_id, sender_communityid, receiver_communityid, message) VALUES (3, 3, 4, 'Would you like to participate in the Carnevale-Diwali exchange program?');
+INSERT INTO community_asset (asset_id,community_assetid,community_id) VALUES (3, 3, 3);
+INSERT INTO community_asset (asset_id,community_assetid,community_id) VALUES (4, 4, 4);
